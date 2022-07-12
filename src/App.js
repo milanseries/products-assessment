@@ -7,7 +7,17 @@ const queryClient = new QueryClient();
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Product />
+      <div
+        style={{
+          display: 'flex',
+          padding: '32px',
+          alignItems: 'center',
+          minHeight: '90vh',
+          justifyContent: 'center',
+        }}
+      >
+        <Product />
+      </div>
     </QueryClientProvider>
   );
 }
