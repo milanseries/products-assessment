@@ -1,23 +1,47 @@
-# React app for products demo
+# Products Assessment
 
 ## Requirements
 
-Create a new file (.env) at the root and configure the environment variables:
-`REACT_APP_API_KEY=<api-key>`
-`REACT_APP_BASE_API=<api-url>`
+`node`
 
-## Available Scripts
+`npm`
 
-In the project directory, you can run:
+Env vars:
 
-### `npm start`
+```text
+REACT_APP_API_KEY=<api-key>
+REACT_APP_BASE_API=<api-url>
+```
+
+## Installation and Setup Instructions
+
+Clone down this repository.
+
+Installation:
+
+```text
+npm install
+```
+
+To start server:
+
+```text
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run test:
 
-### `npm run build`
+```text
+npm run test
+```
+
+To build:
+
+```text
+npm run build
+```
 
 Builds the app for production to the `build` folder.\
