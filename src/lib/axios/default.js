@@ -7,6 +7,6 @@ axios.defaults.headers['ApiKey'] = process.env.REACT_APP_API_KEY;
 
 export const req = {
   async get(url) {
-    return await axios.get(url).then(res => res.data);
+    return await axios.get(url).then((res) => res.data);
   },
 };
